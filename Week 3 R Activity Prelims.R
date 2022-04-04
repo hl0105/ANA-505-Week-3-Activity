@@ -37,7 +37,7 @@ summary(object=new_women)
 #Task: Write the function to return the Mean of just the height column
 height<-new_women[1:15,1]
 
-summary(object=height)
+mean(height)
 
 #This allows me to save one column as its own object ('values' in the Environment)
 #Task: Write the function to create an object for just the Weight column 
